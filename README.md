@@ -3,7 +3,7 @@
 ---
 By Ziyu Lyu, Yue Wu, Junjie Lai, Min Yang, Chengming Li, Wei Zhou.
 
-This repository is an official PyTorch implementation of the TKDE 2023 paper ExplainableRe [Knowledge Enhanced Graph Neural Networks for Explainable Recommendation](https://ieeexplore.ieee.org/document/9681226).
+This repository is an official PyTorch implementation of the TKDE 2023 paper ExplainableRec [Knowledge Enhanced Graph Neural Networks for Explainable Recommendation](https://ieeexplore.ieee.org/document/9681226).
 
 
 ### Required packages
@@ -18,7 +18,7 @@ The code has been tested running under Python 3.6, with the following packages i
 
 ### Files in the folder
 * `dataset/`
-    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core.
+    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core. You can download it from [Home_and_Kitchen_5.json](https://drive.google.com/file/d/1bKBootGLwLGRumxqCwueZt5sv96wz_QI/view?usp=sharing)
 	* `utils.py`: some preprocess methods and tools.
 	* `text2url.py`: which normalizes natural-language text into the ConceptNet URI representation, copy from [conceptnet-numberbatch repository](https://github.com/commonsense/conceptnet-numberbatch).
 	* `DataManager.py`: the script of Dataset and DataLoader.
