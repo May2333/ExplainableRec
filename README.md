@@ -18,7 +18,7 @@ The code has been tested running under Python 3.6, with the following packages i
 
 ### Files in the folder
 * `dataset/`
-    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core. You can download it from [Home_and_Kitchen_5.json](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Home_and_Kitchen_5.json.gz)
+    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core. You should download it from [Home_and_Kitchen_5.json](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Home_and_Kitchen_5.json.gz) and put it in there.
 	* `utils.py`: some preprocess methods and tools.
 	* `text2url.py`: which normalizes natural-language text into the ConceptNet URI representation, copy from [conceptnet-numberbatch repository](https://github.com/commonsense/conceptnet-numberbatch).
 	* `DataManager.py`: the script of Dataset and DataLoader.
@@ -41,12 +41,12 @@ The code has been tested running under Python 3.6, with the following packages i
 
 ### Citing ExplainableRec
 If you use our ExpalinableRec in your research, please cite:
-> @ARTICLE{9681226,
-  author={Lyu, Ziyu and Wu, Yue and Lai, Junjie and Yang, Min and Li, Chengming and Zhou, Wei},
-  journal={IEEE Transactions on Knowledge and Data Engineering},
-  title={Knowledge Enhanced Graph Neural Networks for Explainable Recommendation},
-  year={2023},
-  volume={35},
-  number={5},
-  pages={4954-4968},
+> @ARTICLE{9681226, \
+  author={Lyu, Ziyu and Wu, Yue and Lai, Junjie and Yang, Min and Li, Chengming and Zhou, Wei},\
+  journal={IEEE Transactions on Knowledge and Data Engineering},\
+  title={Knowledge Enhanced Graph Neural Networks for Explainable Recommendation},\
+  year={2023},\
+  volume={35},\
+  number={5},\
+  pages={4954-4968},\
   doi={10.1109/TKDE.2022.3142260}}
