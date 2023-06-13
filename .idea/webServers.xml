@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b17727da-b111-4a30-a364-14fdfcf433c9" name="tkde_github">
+        <fileTransfer accessType="SFTP" host="172.26.1.106" port="22" sshConfigId="7af38180-24a2-48b6-832c-512f5d2c3d45" sshConfig="yuewu@172.26.1.106:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
