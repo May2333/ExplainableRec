@@ -3,7 +3,7 @@
 ---
 By Ziyu Lyu, Yue Wu, Junjie Lai, Min Yang, Chengming Li, Wei Zhou.
 
-This repository is an official PyTorch implementation of the TKDE 2023 paper ExplainableRec (Knowledge Enhanced Graph Neural Networks for Explainable Recommendation).
+This repository is an official PyTorch implementation of the TKDE 2023 paper ExplainableRe [Knowledge Enhanced Graph Neural Networks for Explainable Recommendation](https://ieeexplore.ieee.org/document/9681226).
 
 
 ### Required packages
