@@ -18,7 +18,7 @@ The code has been tested running under Python 3.6, with the following packages i
 
 ### Files in the folder
 * `dataset/`
-    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core. The original page (http://jmcauley.ucsd.edu/data/amazon) is inaccessible now, you can download it from [Home_and_Kitchen_5.json](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Home_and_Kitchen_5.json.gz) and put it in there.
+    * `Home_and_Kitchen_5.json`: a dataset from Amazon 5-core. The dataset in original page (http://jmcauley.ucsd.edu/data/amazon) is inaccessible now, you can download it from [Home_and_Kitchen_5.json](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Home_and_Kitchen_5.json.gz) and put it in there.
 	* `utils.py`: some preprocess methods and tools.
 	* `text2url.py`: which normalizes natural-language text into the ConceptNet URI representation, copy from [conceptnet-numberbatch repository](https://github.com/commonsense/conceptnet-numberbatch).
 	* `DataManager.py`: the script of Dataset and DataLoader.
