@@ -25,17 +25,17 @@ The code has been tested running under Python 3.6, with the following packages i
 	* `build_dict.py`: create the dict from dataset and provide tokenizor
 
 * `saved/`
-	* `conceptnet\`: you need to download `numberbatch-en.txt` from [conceptnet-numberbatch repository](https://github.com/commonsense/conceptnet-numberbatch) and put it in there.
+	* `conceptnet/`: you need to download `numberbatch-en.txt` from [conceptnet-numberbatch repository](https://github.com/commonsense/conceptnet-numberbatch) and put it in there.
 
 * `modules/`: implementations of ExplainableRec.
 
 
 ### Training the code
-> $ `cd ExplainableRec`
+> $ `cd ExplainableRec` \
 > $ `python train.py --run_type train --data_path dataset/Home_and_Kitchen_5.json`
 
 ### Testing the code
-> $ `cd ExplainableRec`
+> $ `cd ExplainableRec` \
 > $ `python train.py --run_type test --data_path dataset/Home_and_Kitchen_5.json`
 
 
